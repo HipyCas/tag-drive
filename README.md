@@ -13,7 +13,11 @@ Personalmente, he vivido esto tanto en la universidad, con asignaturas que he ll
 
 En adición a las operaciones CRUD de subida, descarga y eliminación de archivos y edición de etiquetas, la implementación requerirá lógica para:
 - La realización de búsquedas con sentencias lógicas complejas, incluyendo variables dinámicas como la fecha y hora en el momento de la búsqueda.
-- Detectar e impedir la creación de archivos duplicados, realizando las fusiones de etiquetas pertinentes.
+- Analizar los archivos subidos calculando su hash e impedir la creación de archivos duplicados, realizando las fusiones de etiquetas pertinentes.
 - Diferenciar entre nombres duplicados y archivos duplicados, gestionando adecuadamente la subida de nombres duplicados sin perder archivos.
 
 ![Fotografía de la tarjeta de rol](tarjeta.jpg)
+
+## Configuración
+
+En el siguiente archivo se puede encontrar la configuración de Git y GitHub para realizar la subida de los archivos: [docs/configuracion.md](docs/configuracion.md).
