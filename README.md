@@ -2,12 +2,7 @@
 
 ## Problema a tratar
 
-Las plataformas de almacenamiento en nube que puedes encontrar se basan en una clásica estructura jerárquica, similar a la mayoría de sistemas de archivos. Esta estructura jerárquica presenta varios problemas:
-- Con archivos que pueden caer dentro de dos categorías o posibles clasificaciones, por ejemplo unos apuntes de una asignatura que estás cursando en dos años diferentes;
-- A la hora de recordar dónde está cada archivo, por ejemplo si tienes todos los resguardos de pagos en un sitio y las cosas de la universidad en otro, puede que no recuerdes dónde habías guardado el resguardo de matrícula;
-- Y creándose duplicados, por ejemplo si tienes una carpeta que comprimir para entregar y tienes que reutilizar documentación de una entrega anterior, la duplicarías para ello.
-
-Personalmente, he vivido esto tanto en la universidad, con asignaturas que he llegado a cursar en diferentes años y teniendo que saltar de año en año navegando carpetas para encontrar los apuntes que buscaba, o presidiendo una asociación en la que la documentación para presentar en convocatorias tenía que duplicarse y buscarse entre múltiples carpetas para cada convocatoria.
+A lo largo de mi vida y, especialmente, en la universidad, he encontrado problemas a la hora de almacenar archivos en mi ordenador así como en la nube. Muchas veces he querido almacenar el mismo archivo en 2 ubicaciones diferentes, por ejemplo, al tratarse de apuntes de una asignatura que he cursado varios años o documentación que necesitaba presentar en diferentes ocasiones. Esto ha implicado duplicar muchos archivos de manera innecesaria o invertir considerables cantidades de tiempo en ubicarlos y ordenarlos de la mejor forma posible. Asimismo, la búsqueda estándar por nombre me fuerz a incrustar en el nombre de elos archivos identificadores, como las iniciales de una asignatura, para poder realizar una búsqueda eficiente.
 
 ## Lógica de negocio requerida
 
@@ -18,7 +13,7 @@ En adición a las operaciones CRUD de subida, descarga y eliminación de archivo
 
 ## Datos requeridos
 
-Los datos necesarios para el funcionamiento del software y su lógica de negocio serán aportados en su totalidad por los usuarios, a través del mismo.
+Los usuarios aportarán los archivos e indicarán a qué categorías deberían perteneces, así como posibles reeelaciones entre ellas. El sistema calculará autónomamente los datos necesearios para evitar colisiones así como computará categorías a partir de las relaciones establecidas y las indicaciones originales de los usuarios.
 
 ![Fotografía de la tarjeta de rol](tarjeta.jpg)
 
