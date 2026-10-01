@@ -16,6 +16,10 @@ En adición a las operaciones CRUD de subida, descarga y eliminación de archivo
 - Analizar los archivos subidos calculando su hash e impedir la creación de archivos duplicados, realizando las fusiones de etiquetas pertinentes.
 - Diferenciar entre nombres duplicados y archivos duplicados, gestionando adecuadamente la subida de nombres duplicados sin perder archivos.
 
+## Datos requeridos
+
+Los datos necesarios para el funcionamiento del software y su lógica de negocio serán aportados en su totalidad por los usuarios, a través del mismo.
+
 ![Fotografía de la tarjeta de rol](tarjeta.jpg)
 
 ## Configuración
